@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-title {
+  font-size: 60px;
+}
+
+.navbar {
+  margin:0;
+  padding:0;
+  display: flex;
+  list-style-type: none;
+  width:100%;
+  background-color:#a2abba;
+  font-family: Georgia, sans-serif;
+}
+
+.navbar .navbar-item {
+  display: inline-flex;
+}
