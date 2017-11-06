@@ -3,20 +3,42 @@
   padding: 0px;
 }
 
+body {
+  width: 82%;
+  margin: auto;
+}
+
 .main-title {
   font-size: 60px;
 }
 
 .navbar {
-  margin:0;
-  padding:0;
   display: flex;
   list-style-type: none;
   width:100%;
-  background-color:#a2abba;
+  background-color:#000000;
   font-family: Georgia, sans-serif;
+  justify-content: center;
+  align-content: stretch;
 }
 
 .navbar .navbar-item {
   display: inline-flex;
+  padding: 15px 40px;
+  color: #ffffff;
+}
+
+.about-main {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.col-xs-4 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-sidebar {
+  display: flex;
 }
